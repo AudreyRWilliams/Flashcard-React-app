@@ -11,7 +11,13 @@ This Flashcard React app is created locally first and pushed to GitHub. <br>
 ## These are the steps to recreate this project:
 Parcel is a lightweight bundler that works on older setups.
 ## 1) Make a folder and init npm
+- mkdir ~/my-react-app
+- cd ~/my-react-app
+- npm init -y
 ## 2) Install React + Parcel + Babel presets
+- npm install react@18 react-dom@18
+- npm install --save-dev parcel-bundler@1.12.5 @babel/core@7 @babel/preset-env@7 @babel/preset-react@7
+
 ## 3) Add a Babel config
 ## 4) Project structure
 ## 5) Run it
@@ -20,6 +26,6 @@ Parcel is a lightweight bundler that works on older setups.
 - git add .
 - git commit -m "React flashcards with Parcel (no CRA)"
 - git branch -M main
-- git remote add origin https://github.com/<your-username>/my-react-app.git
+- git remote add origin https://github.com/your-username/my-react-app.git
 - git push -u origin main
 
