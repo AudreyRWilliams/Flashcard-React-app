@@ -15,4 +15,11 @@ Parcel is a lightweight bundler that works on older setups.
 ## 3) Add a Babel config
 ## 4) Project structure
 ## 5) Run it
-## 6) Push to GitHub
+## 6) Push to GitHub (create a repository on GitHub FIRST)
+- git init
+- git add .
+- git commit -m "React flashcards with Parcel (no CRA)"
+- git branch -M main
+- git remote add origin https://github.com/<your-username>/my-react-app.git
+- git push -u origin main
+
