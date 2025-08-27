@@ -30,7 +30,7 @@ Create these files: <br>
 <img width="96" height="71" alt="Screen Shot 2025-08-25 at 12 58 00 PM" src="https://github.com/user-attachments/assets/2f867f6c-d35c-4059-be9c-d7ec02604a6d" /> <br>
 Open http://localhost:1234  .....  you should see clickable flashcards.
 
-## 6) Push to GitHub (create a repository on GitHub FIRST)
+## 6) Push to GitHub (create a repository w/o the README.md file on GitHub FIRST)
 - git init
 - git add .
 - git commit -m "React flashcards with Parcel (no CRA)"
